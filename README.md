@@ -7,4 +7,4 @@ Cifrado: AES-256-GCM
 
 
 Pasos:
-1. Descarga el archivo 
+1. Descarga el archivo "Ransomware.cpp"
