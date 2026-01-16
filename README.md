@@ -7,4 +7,7 @@ Cifrado: AES-256-GCM
 
 
 Pasos:
-1. Descarga el archivo "Ransomware.cpp"
+> [!NOTE]
+> **Azul:** 1. Descarga el archivo "Ransomware.cpp"
+> **Azul**  2. Configuralo, en la linea 54 : carpeta_objetivo = 'Pone el nombre de la carpeta'
+
