@@ -17,5 +17,12 @@
    Abre el archivo y dirígete a la **línea 53**. Modifica la ruta de la siguiente manera:
    ```cpp
    std::string carpeta_objetivo = "Aca pone el nombre de tu carpeta a encriptar";
-Abre una terminal
-Ejecuta
+Guarda los cambios (Ctrl+S)
+
+Abri una terminal
+   
+Entrar a la carpeta: cd [Ruta de la carpeta]
+
+Compilar: g++ -std=c++17 Ransomware.cpp -o Ransomware -lssl -lcrypto
+
+Ejecutar: ./Ransomware
