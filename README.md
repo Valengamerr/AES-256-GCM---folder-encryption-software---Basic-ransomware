@@ -1,14 +1,14 @@
-# 🛡️ C++ AES-256 Smart Locker
+# 🛡️ C++ AES-256 - Ransomware
 
 > [!CAUTION]
-> ### ⚠️ ALERTA: PROCESO IRREVERSIBLE
+> ### ⚠️ ALERTA:
 > Al ejecutar este programa, **todo el contenido** dentro de la carpeta objetivo será encriptado mediante AES-256-GCM y **Despues borrado**. 
 >
 > **Expansión de carpetas :**
 > Sobre las carpetas dentro de otras: El programa es "Expansivo". Si adentro de tu carpeta hay más carpetas, el código se va a meter en cada una y va a encriptar todos los archivos que encuentre.
 ---
 
-### 🚀 Pasos para la ejecución
+### 🚀 Pasos 
 
 1. **Descarga el archivo**
    Descarga el archivo `Ransomware.cpp` 
@@ -21,7 +21,7 @@ Guarda los cambios (Ctrl+S)
 
 Abri una terminal
    
-Entrar a la carpeta: cd [Ruta de la carpeta]
+Entrar a la carpeta donde este el archivo "Ransomware.cpp": cd [Ruta de la carpeta]
 
 Compilar: g++ -std=c++17 Ransomware.cpp -o Ransomware -lssl -lcrypto
 
