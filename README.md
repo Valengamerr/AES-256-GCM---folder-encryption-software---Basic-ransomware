@@ -1,13 +1,20 @@
+# 🛡️ C++ AES-256 Smart Locker
 
- 
-Codigo creado en C++
-Cifrado: AES-256-GCM
+> [!CAUTION]
+> ### ⚠️ ALERTA: PROCESO IRREVERSIBLE
+> Al ejecutar este programa, **todo el contenido** dentro de la carpeta objetivo será encriptado mediante AES-256-GCM y **posteriormente borrado**. 
+>
+> **Expansión de carpetas (Smart Scan):**
+> El algoritmo es recursivo. Esto significa que si la carpeta principal contiene otras carpetas (subcarpetas), el programa entrará en cada una de ellas, encriptará los archivos internos y seguirá bajando hasta que no quede ni un solo archivo sin procesar en toda la estructura del árbol.
 
-⚠️ -> **Todo los archivos dentro de la carpeta se encriptaran y se borraran incluso carpetas dentro de la carpeta** 
+---
 
+### 🚀 Pasos para la ejecución
 
-Pasos:
-> [!NOTE]
-> **1. Descarga el archivo "Ransomware.cpp"** 
-> **2. Configuralo, en la linea 54 : carpeta_objetivo = 'Pone el nombre de la carpeta'**  
+1. **Descarga el archivo fuente**
+   Descarga el archivo `Ransomware.cpp` en tu equipo.
 
+2. **Configuración manual**
+   Abre el archivo y dirígete a la **línea 53**. Modifica la ruta de la siguiente manera:
+   ```cpp
+   std::string carpeta_objetivo = "Aca pone el nombre de tu carpeta a encriptar";
